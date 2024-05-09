@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music Player</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4c91d29ab2.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
@@ -22,14 +23,14 @@
             <h1>PURPLE CLOUDS</h1> <br>
             <p>Robin Ft.Montero</p>
              
-            <audio controls id="song">
+            <audio  id="song">
                 <source src="Ratha Kothippu-(PagalSongs.Com.IN).mp3" type="audio/mpeg">
             </audio>
             <input type="range" value="0" id="progress">
             <div class="controls">
-                <div> <img src="backward.png" ></div>
-                <div onclick="playpause()"><img src="play.png"  id="ctrlicon"></div>
-                <div><img src="front.png" alt=""></div>
+                <div>  <i class="fa-solid fa-backward"></i></div>
+                <div onclick="playpause()"><i class="fa-solid fa-play"  id="ctrlicon"></i> </div>
+                <div><i class="fa-solid fa-forward"></i></div>
             </div>
 
         </div>

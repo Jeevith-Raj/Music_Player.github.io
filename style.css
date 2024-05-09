@@ -83,6 +83,7 @@ nav{
     margin: 20px;
     display: inline-flex;
     cursor: pointer;
+    align-items: center;
 }
 
 .controls div:nth-child(2){
