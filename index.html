@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="music-player">
+            <nav>
+                <div class="circle">
+                    <img src="less-than.png" alt="">
+                </div>
+                <div class="circle">
+                    <img src="menu.png" alt="">
+                </div>
+            </nav>
+
+            <img src="cover.jpg" class="cover">
+            <h1>PURPLE CLOUDS</h1> <br>
+            <p>Robin Ft.Montero</p>
+             
+            <audio controls id="song">
+                <source src="Ratha Kothippu-(PagalSongs.Com.IN).mp3" type="audio/mpeg">
+            </audio>
+            <input type="range" value="0" id="progress">
+            <div class="controls">
+                <div> <img src="backward.png" ></div>
+                <div onclick="playpause()"><img src="play.png"  id="ctrlicon"></div>
+                <div><img src="front.png" alt=""></div>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
